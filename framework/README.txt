@@ -1,0 +1,1 @@
+This folder is used to for woocommerce unit test helper classes

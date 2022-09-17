@@ -1,0 +1,35 @@
+{
+    "name": "dmitryrechkin/php-wp-phpunit-bootstrap",
+	"type": "php-wp-phpunit-bootstrap",
+    "description": "Dmitry Rechkin's - PHPUnit Bootstrap for WordPress with the binary files to simplify running of unit tests with docker",
+    "keywords": [
+    ],
+    "license": "AGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Dmitry Rechkin",
+            "email": "rechkin@gmail.com",
+            "homepage": "https://github.com/dmitryrechkin/"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "dmitryrechkin/php-phpunit-bootstrap": "^1.0",
+        "phpunit/phpunit": "^9.5.10",
+        "yoast/phpunit-polyfills": "^1.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "classmap": [
+            "framework"
+        ]
+    },
+    "bin": [
+        "bin/wp-phpunit.sh",
+        "bin/wp-phpunit-docker-run.sh",
+        "bin/wp-phpunit-docker-stop.sh",
+        "bin/wp-phpunit-install-wc-framework.sh",
+        "bin/wp-phpunit-install.sh",
+        "bin/wp-phpunit-uninstall.sh"
+    ]
+}

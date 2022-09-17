@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../phpunit/phpunit/phpunit.xsd"
+         bootstrap="wp-bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+>
+    <testsuites>
+        <testsuite name="WP">
+            <directory suffix="Test.php">../../../../tests/WP</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
